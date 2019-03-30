@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2019-03-30T21:48:51-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/30/03/2019/why-we-need-a-new-business-model/</loc>
     <lastmod>2019-03-30T00:00:00+00:00</lastmod>
   </url>
@@ -38,7 +43,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-30T21:48:51-07:00</lastmod>
     <priority>0</priority>
   </url>
   
