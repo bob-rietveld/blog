@@ -1,26 +1,21 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-lithium"
+title = "Good Marketing"
+theme = "terminal"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    post = "/:day/:month/:year/:slug/"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "How marketing should become a force for good"
+    
+    # terminal theme params
+    fullWidthTheme = false
+    centerTheme = true
+    contentTypeName = "post"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
@@ -35,8 +30,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "logo.png"
-    width = 50
+    url = "GoodMarketing_favicon_72x72px.png"
+    width = 50  
     height = 50
     alt = "Logo"
+    
+[languages]
+  [languages.en]
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
 
+    [languages.en.params.logo]
+      logoText = "Good Marketing"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"

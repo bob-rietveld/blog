@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Terminal</title>
+    <link>/categories/marketing/</link>
+    <description>Recent content in Marketing on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why we need to replace the advertising business model</title>
+      <link>/2019/03/30/new-business-model/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/30/new-business-model/</guid>
+      <description>You are being programmed. Programmed to spend more time on social media, delivering more data points, which platforms like Google, Facebook and Twitter use to serve you hyper-targetted ads. Every day you are feeding information, consciously or unconsciously to firms, whose financial prosperity depends on their ability to convert your attention data into advertising spend. While adds online may be a nuisance, a deeper evil is concerned with the attention-based business model which may unhinges the current social contract between firms and consumers.</description>
+    </item>
+    
+  </channel>
+</rss>
